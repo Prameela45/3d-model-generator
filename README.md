@@ -31,19 +31,18 @@ cd 3d-model-generator
 
 ## How to Run Locally
 
-### Backend (Flask)
-```bash
-cd backend
+ backend
 python -m venv venv
-source venv/bin/activate  # On Windows use venv\Scripts\activate
+source venv/bin/activate
+ use venv\Scripts\activate
 pip install -r requirements.txt
 python app.py
 
 
-
-cd frontend
+ frontend
 npm install
 npm start
+npm run dev
 
 
 
