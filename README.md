@@ -10,6 +10,8 @@ An AI-powered tool to convert 2D architectural blueprints into interactive 3D co
 - Export 3D models to STL, OBJ, and GLTF
 - Realistic visual representation with wall thickness and door/window placements
 - Role-based login system (Admin & Core Users)
+-  *React Routing*: Separate pages for Login, Upload, and 3D Preview
+
 
 ## Tech Stack
 
@@ -25,3 +27,31 @@ An AI-powered tool to convert 2D architectural blueprints into interactive 3D co
 ```bash
 git clone https://github.com/Prameela45/3d-model-generator.git
 cd 3d-model-generator
+
+
+## How to Run Locally
+
+### Backend (Flask)
+```bash
+cd backend
+python -m venv venv
+source venv/bin/activate  # On Windows use venv\Scripts\activate
+pip install -r requirements.txt
+python app.py
+
+
+
+cd frontend
+npm install
+npm start
+
+
+
+
+
+
+
+
+
+
+## Folder Structure
